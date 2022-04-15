@@ -8,6 +8,131 @@
         <title>Web Sample</title>
     </head>
     <body>
-        Hola Mundo
+        <header>
+            <hgroup>
+                <h1>Hola Mundo</h1>
+                <h2>Ejemplo de Web</h2>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Sección 1</a></li>
+                    <li><a href="#section2">Sección 2</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section1">
+            <header>
+                <hgroup>
+                    <h2>Primera parte</h2>
+                    <h3>Acerca de nosotros</h3>
+                </hgroup>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                odio facilis est nisi hic nihil commodi atque culpa repudiandae
+                molestiae quos sunt quia accusantium, excepturi nostrum illum
+                harum officia quisquam?
+            </p>
+            <p>
+                Odio dolor aliquid dolores provident eos possimus magnam rerum
+                eaque quis architecto commodi aperiam harum illum voluptates ex
+                reiciendis minima ea eligendi nisi totam, incidunt velit itaque
+                iste! Facilis, vitae?
+            </p>
+            <footer>
+                <address>Pepito</address>
+            </footer>
+        </section>
+        <section id="section2">
+            <h2>Segunda parte</h2>
+            <p>
+                Sapiente dignissimos architecto odit tenetur soluta labore
+                doloremque velit! Optio id sint sed accusamus ad delectus
+                excepturi officiis cumque veritatis eum consequuntur,
+                voluptatem, deleniti reiciendis provident hic illo sequi
+                molestiae?
+            </p>
+            <p>
+                Voluptates aspernatur error corrupti exercitationem quidem sit
+                explicabo perspiciatis! Itaque molestiae perspiciatis id
+                voluptatem facere quidem magni dolore delectus quisquam
+                laudantium, maiores, eius repudiandae libero sit optio.
+                Repellat, laborum exercitationem.
+            </p>
+            <p>
+                Voluptatibus quia animi, ipsum necessitatibus eum molestiae
+                suscipit et deleniti, sit laboriosam impedit aspernatur, cum
+                illum adipisci quod. Id voluptate porro ea eveniet itaque
+                doloremque atque, consequatur aliquid labore et?
+            </p>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/3vldzoNRz-8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+        </section>
+        <dialog>Esto sería un modal</dialog>
+        <aside>
+            <form action="" method="get">
+                <label for="userName">User Name</label>
+                <input
+                    type="text"
+                    name="userName"
+                    id="userName"
+                    placeholder="Dime tu nombre"
+                />
+                <label>
+                    Email
+                    <input
+                        type="email"
+                        name="userEmail"
+                        id=""
+                        placeholder="Dime tu correo"
+                    />
+                </label>
+                Turno
+                <label>
+                    <input type="radio" name="turno" value="M" id="" />Mañana
+                </label>
+                <label>
+                    <input type="radio" name="turno" value="T" id="" />Tarde
+                </label>
+                <input type="checkbox" name="isOK" id="isOK" required />
+                <label for="isOK">Acepto ...</label>
+
+                <label for="cursos"></label>
+                <select name="cursos" id="cursos" required>
+                    <option value=""></option>
+                    <option value="R">React</option>
+                    <option value="A">Angular</option>
+                </select>
+                <button type="submit">Enviar</button>
+            </form>
+            <details>
+                <summary><label for="fn">Name & Extension:</label></summary>
+                <p>
+                    <input
+                        type="text"
+                        id="fn"
+                        name="fn"
+                        value="Pillar Magazine.pdf"
+                    />
+                </p>
+                <p>
+                    <label
+                        ><input type="checkbox" name="ext" checked /> Hide
+                        extension</label
+                    >
+                </p>
+            </details>
+        </aside>
+        <footer>
+            <mis-cosas>Cosas</mis-cosas>
+            <address>Alejnadro Cerezo</address>
+        </footer>
     </body>
 </html>
