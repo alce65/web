@@ -1,0 +1,82 @@
+@import url(./variables.css);
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* header {
+    color: red;
+}
+
+#section1 {
+    color: blue;
+} 
+
+.main_header {
+    color: red;
+}
+
+[for='userName'] {
+    color: red;
+}
+*/
+
+body > header {
+    color: var(--primary-color);
+}
+
+header + p {
+    color: blue;
+}
+
+p ~ p {
+    color: green;
+}
+
+.marcado:before {
+    content: '😍';
+}
+
+div {
+    height: 1rem;
+    width: 2rem;
+    float: left;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.private {
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.private:hover {
+    opacity: 1;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 700px) {
+    body {
+        background-color: initial;
+    }
+}
